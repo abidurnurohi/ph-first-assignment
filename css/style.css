@@ -6,6 +6,15 @@
 body{
     margin-top: 0;
 }
+button{
+    transition: all linear 0.3s;
+}
+button:hover{
+    color:  black;
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    box-shadow: 10px 10px 10px blueviolet;
+}
 header{
     background-image: url('../images/Hero-bg.png');
     background-position: center;
@@ -16,16 +25,21 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 900;
+}
 .logo , .btn-head{
         margin: 80px 162px;
 }
 .btn-head{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 25px 60px;
+    padding: 12px 36px;
     border: none;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
@@ -44,10 +58,10 @@ nav{
 .title-btn{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 25px 65px;
+    padding: 12px 36px;
     border: none;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
@@ -66,10 +80,10 @@ main{
 .section1-btn{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 25px 65px;
+    padding: 12px 36px;
     border: none;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
@@ -171,10 +185,10 @@ main{
 .button4{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 25px 65px;
+    padding: 12px 36px;
     border: none;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 0.1rem;    
 }
 .image4{
@@ -228,12 +242,9 @@ span{
 }
 footer{
     max-width: 500px;
-    /* align-items: center;
-    text-align: center; */
-    margin: 105px 655px;
-}
-.footer-content{
+    align-items: center;
     text-align: center;
+    margin: 105px 655px;
 }
 .footer-logo{
     color: #4E47FF;
