@@ -219,10 +219,39 @@ span{
 .feedback-btn{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 19px 200px;
+    padding: 19px 206px;
     border: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
+}
+footer{
+    max-width: 500px;
+    /* align-items: center;
+    text-align: center; */
+    margin: 105px 655px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-logo{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.footer-description{
+    color: #8987A1;
+    line-height: 1.5rem;
+}
+.footer-tags{
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 65px 0;
+}
+.footer-tags a{
+    text-decoration: none;
+    color: gray;
 }
