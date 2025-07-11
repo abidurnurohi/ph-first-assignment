@@ -1,0 +1,180 @@
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header{
+    background-image: url('../images/Hero-bg.png');
+    background-position: center;
+    background-size: cover;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo , .btn-head{
+        margin: 80px 162px;
+}
+.btn-head{
+    background-color: #4E47FF;
+    border-radius: 15px;
+    padding: 25px 60px;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.page-banner{
+    margin: 309px 267px 0px 267px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 198px;
+
+}
+.title{
+    color: #252432;
+    font-size: 65px;
+    line-height: auto;
+}
+.title-btn{
+    background-color: #4E47FF;
+    border-radius: 15px;
+    padding: 25px 65px;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+main{
+    background-color: #F5F8FF;
+}
+.section1-head{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+}
+.section1-description{
+    font-size: 24px;
+    color: #252432;
+}
+.section1-btn{
+    background-color: #4E47FF;
+    border-radius: 15px;
+    padding: 25px 65px;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.section1-img{
+    border-radius: 48px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 159px 116px 141px;
+    padding-top: 107px;
+}
+.section2{
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    margin: 116px 159px 0px 141px;
+    padding: 50px 142px;
+}
+.section2-head{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.information{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.caption{
+    font-size: 20px;
+    color: #252432;
+}
+.infos{
+    text-align: center;
+}
+.infos p{
+    margin: 0;
+    line-height: 1.2;
+}
+.section3{
+    margin: 137px 150px;
+}
+.section3-head{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+        background-color: #FAFCFF;
+        margin: 24px;
+        padding: 24px;
+        border-radius: 14px;
+}
+.reviewer{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+.sub-head{
+    font-size: 20px;
+}
+.profile{
+  border-radius: 50%;
+  width: 50px;       
+  height: 50px;
+  object-fit: cover
+}
+.section4{
+    text-align: center;
+    align-items: center;
+    background-color: #FFFF;
+    border-radius: 24px;
+    margin: 137px 149px 0px 151px;
+    padding: 71px 150px;
+}
+.section4-head{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description4{
+    font-size: 20px;
+    color: #252432;
+}
+.button4{
+    background-color: #4E47FF;
+    border-radius: 15px;
+    padding: 25px 65px;
+    border: none;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 0.1rem;    
+}
+.image4{
+    border-radius: 48px;
+    margin-top: 20px;
+}
