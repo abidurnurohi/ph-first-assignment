@@ -233,7 +233,7 @@ span{
 .feedback-btn{
     background-color: #4E47FF;
     border-radius: 15px;
-    padding: 19px 206px;
+    padding: 19px 200px;
     border: none;
     color: white;
     font-size: 16px;
@@ -241,10 +241,8 @@ span{
     letter-spacing: 0.1rem;
 }
 footer{
-    max-width: 500px;
     align-items: center;
     text-align: center;
-    margin: 105px 655px;
 }
 .footer-logo{
     color: #4E47FF;
@@ -254,13 +252,14 @@ footer{
 }
 .footer-description{
     color: #8987A1;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 .footer-tags{
-    /* width: 30%; */
+    width: 30%;
+    margin-left: 400px;
     display: flex;
     justify-content: space-around;
-    padding: 20px 65px 0;
+    padding: 20px 65px 103px 65px;
 }
 .footer-tags a{
     text-decoration: none;
